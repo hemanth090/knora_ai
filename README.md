@@ -1,6 +1,6 @@
 # 🔍 KnoRa AI Knowledge Assistant
 
-[![GitHub](https://img.shields.io/github/license/hemanth090/knora_ai)](https://github.com/hemanth090/knora_ai)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/hemanth090/knora_ai/blob/main/LICENSE)
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://github.com/hemanth090/knora_ai)
 [![GitHub stars](https://img.shields.io/github/stars/hemanth090/knora_ai)](https://github.com/hemanth090/knora_ai)
 
