@@ -13,7 +13,7 @@ APP_NAME = "KnoRa AI Knowledge Assistant"
 APP_VERSION = "2.0.0"
 
 # Vector store settings
-DEFAULT_VECTOR_STORE_PATH = os.getenv("VECTOR_STORE_PATH", "/app/data/vector_store")
+DEFAULT_VECTOR_STORE_PATH = os.getenv("VECTOR_STORE_PATH", "data/vector_store")
 DEFAULT_EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "all-MiniLM-L6-v2")
 
 # LLM settings
