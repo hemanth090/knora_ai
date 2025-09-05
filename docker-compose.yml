@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  knora-ai:
+    # Build the image from the Dockerfile in this directory
+    build: .
+    
+    # Map port 8501 on your computer to port 8501 in the container
+    ports:
+      - "8501:8501"
+    
+    # Save data between container restarts
+    volumes:
+      - ./data:/app/data
+    
+    # Load environment variables from .env file
+    env_file:
+      - .env
+    
+    # Set environment variables
+    environment:
+      - VECTOR_STORE_PATH=/app/data/vector_store
